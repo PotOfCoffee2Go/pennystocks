@@ -12,10 +12,10 @@ Clone this repo and fire up the server
 
 ```
 git clone https://github.com/PotOfCoffee2Go/pennystocks.git
-tiddlywiki --listen port=3000
+tiddlywiki pennystocks --listen port=3000
 ```
 
-Browse to http://localhost:3000 to open tiddlywiki containing the notes.
+Browse to `http://localhost:3000` to open tiddlywiki containing the notes.
 
 If unfamiliar with tiddlywiki - [Grok Tiddlywiki](https://groktiddlywiki.com) is a good place to start.
 
