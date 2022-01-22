@@ -1,0 +1,3 @@
+# ignore output from `tiddlywiki --build index`
+# copy generated 'index.html' to project root for offline use
+output/
