@@ -1,0 +1,36 @@
+created: 20211120211455360
+modified: 20211124170446299
+previous: Account
+tags: 
+title: Earnings
+type: text/vnd.tiddlywiki
+
+Earnings occur when you buy and then sell a particular stock. Similar to a merchant that trades in peanuts. They have to buy some peanuts which [[costs|Cost]] so much money. Then sell the peanuts and [[realize|Realized]] money in return. They earn the difference between what peanuts cost and the money they realized from the trade.
+
+A bird's eye view of the sequence to generate earnings is :
+
+# Buy 100 shares of a stock at .50 cents [[Order]]
+# The buy order is 100 x .50 = $50 [[Cost]]
+# The $50 [[Cost]] is deducted from [[Cash]]
+# The order is [[Filled]] by NASDAQ (assume at the .50 cents per share)
+# $50 is now withdrawn from your [[Account]]
+# $50 is deposited into the seller's account [[Clearing]]
+# Your [[Position]] is now ''open'' with 100 shares 
+# The [[Position]]'s [[Entry Price]] is at the [[Filled]] price of .50 cents 
+ 
+We are half way to [[realizing|Realized]] our earnings! If the stock market gods smile upon us and the price of the stock goes up to .60 cents per share - sell, sell, sell!
+
+# Sell 100 shares of the stock at .60 cents [[Order]]
+# The sell order is 100 x .60 = $60 [[Sale]]
+# Note: unlike buy orders - [[Cash]] is NOT updated yet!
+# The order is [[Filled]] by NASDAQ (assume at the .60 cents per share)
+# The $60 [[Sale]] is now credited to [[Cash]]
+# The [[Position]]'s [[Exit Price]] is the [[Filled]] price of .60 cents
+# $60 is withdrawn from buyer's account [[Clearing]]
+# $60 deposited into your [[Account]]
+# Your [[Position]] is now ''closed'' and no longer own 100 shares
+# [[Realize|Realized]] the $60 [[Sale]] - $50 [[Cost]] = $10 [[Earnings]]!!!
+
+Of course, if the [[Sale]] had been $40 (.40 cents per share) the [[Earnings]] would be a $10 loss :(
+
+Piece of cake.

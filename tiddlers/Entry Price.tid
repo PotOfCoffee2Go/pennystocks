@@ -1,0 +1,11 @@
+created: 20211120190614811
+modified: 20211123101335520
+next: Exit Price
+previous: Stocks To Trade
+tags: 
+title: Entry Price
+type: text/vnd.tiddlywiki
+
+The bid price of a stock should be between .30 and .70 cents. Higher or lower bid prices increases the [[risk|Risk]].
+
+A simple but effective strategy is to [['average-in|Average In]]' as the price of a stock goes down then go [['flat|Flat]]' (selling all shares) when the price goes up to your [[exit price|Exit Price]].

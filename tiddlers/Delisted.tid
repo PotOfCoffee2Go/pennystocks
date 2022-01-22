@@ -1,0 +1,15 @@
+created: 20211121020613856
+modified: 20211123101227547
+previous: Penny Stocks
+tags: 
+title: Delisted
+type: text/vnd.tiddlywiki
+
+NASDAQ has rules that a company must comply to remain listed on the NASDAQ market. 
+There are a bunch of these rules which pertain not only to NASDAQ but include the filing requirements of the SEC.
+
+The SEC could care less about the price of a stock (well, their [[Fees]] are based on the price, but other than that), while NASDAQ requires that a stock's bid price be over a dollar. It is these under $1 [[penny stocks|Penny Stocks]] which we are interested in.
+
+Generally, as the stock approaches the delisting date, the more volatile it becomes. The ones holding the stock when it delists - looses.
+
+NASDAQ's [[Noncompliant Companies|https://listingcenter.nasdaq.com/NonCompliantCompanyList.aspx]] site displays the date when a company was notified of their bid price issues. Add 6 months to that date - which is the normal grace period before the company will be delisted from NASDAQ (the grace period can be extended - appeals, etc).

@@ -1,0 +1,16 @@
+created: 20211120211158937
+modified: 20211124192535733
+previous: Account
+tags: 
+title: Activity
+type: text/vnd.tiddlywiki
+
+Account activities include money movement related to deposits, withdraws, adjustments, dividends, etc which are not directly related to trading on the market. A majority of these transactions do not pertain to a specific stock.
+
+Of course, can not be that simple. Transfers which are both an activity and directly related to a specific stock such as symbol changes and stock splits are treated like a market [[Fill|Filled]]; withdraws are a [[Cost]], deposits are [[Realized]].
+
+<<<
+Of course, there is an exception to the exception - Dividend transactions are related to a specific stock but considered an Activity and are just a deposit.
+<<<
+
+

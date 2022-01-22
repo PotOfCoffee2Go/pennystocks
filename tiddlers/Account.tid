@@ -1,0 +1,11 @@
+created: 20211120204159808
+modified: 20211124192736946
+next: Activity
+previous: Welcome
+tags: 
+title: Account
+type: text/vnd.tiddlywiki
+
+It is easier to manage a  portfolio of [[penny stocks|Penny Stocks]] in a separate account.  Selected a [[trading platform|Trading Platforms]] and deposited $2500 giving $1000 of [[risk capital|Risk Capital]] with $1500 [[capital base|Capital Base]] for additional buying power.
+
+Made a worksheet to track money moving through the account broken down by stock symbol. Money that is not directly related to the market is considered [[Activity]].  Money withdrawn ''to'' the market is a [[Cost]] as long as the position is "open", when the position is "closed" is then [[Invested]] (see [[Cost vs Invested]]).  Money deposited ''from'' the market is [[Realized]]. Finally, there are the inevitable [[Fees]] which are applied to all transactions which move money.

@@ -1,0 +1,12 @@
+created: 20211122212003351
+modified: 20211123101512641
+previous: Usage
+tags: Usage
+title: Links
+type: text/vnd.tiddlywiki
+
+Notes in this book link to other resources.
+
+Links that are not underlined ([[example|Example]])  display other notes in the book. When a link is underlined ([[example|https://example.com]]), it is referencing an external site on the web and will open a new tab in the browser.
+
+Many notes will have a link or two on the bottom left or right. These link to other notes in the book that may be of interest or pertain to this note (see [[Usage]] at the bottom of this note)!

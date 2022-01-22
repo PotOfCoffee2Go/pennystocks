@@ -1,0 +1,25 @@
+created: 20211124183118731
+modified: 20211124213218332
+tags: wip
+title: Cost
+type: text/vnd.tiddlywiki
+
+Below is describing cost when buying and then selling stock. Shorting is similar - but I never [[short|Do Not Short]] so not going down that rabbit hole.
+
+<<<
+Take the description below with a grain of salt - there are many twists and turns depending on order types, partial fills, fees, etc.
+<<<
+
+The cost is the number of shares times the price submitted with a buy [[order|Order]]. The cost is deducted from this nebulous value '[[Cash]]' when the order is submitted to the market.
+
+No money has actually moved anywhere. If the order is canceled then the cost is just put back into [[Cash]]. If the order is [[Filled]] then a flurry of activity occurs as you enter the [[position|Position]] in which [[Cash]] will be adjusted with the actual amount of the purchase and ultimately a withdraw of funds from the [[Account]] to pay for the stock.
+
+Now you own stock at the purchase price or cost - same thing. The cost is now used to determine how much you would make/lose if you were to sell the stock right now - based on the stocks ever moving bid price on the market.
+
+So now let's put in a sell [[order|Order]] for the same number of shares. [[Cash]] does not change. If the order is canceled, no harm done as nothing has changed. If [[Filled]] then the sold amount is posted to [[Cash]] and a deposit of the sale amount is posted to the [[Account]].
+
+At this point, I call the amount of the initial buy order [[Invested]], the sell order is [[Realized]].
+
+In my book, cost does not exist on closed positions but most traders would still call the amount of the buy order - a cost. Cost is used to determine the value of the position on the market. While Realized - Invested = cold hard cash ([[Earnings]]).
+
+

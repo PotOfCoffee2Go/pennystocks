@@ -1,0 +1,7 @@
+created: 20211122195522705
+modified: 20211124170509144
+tags: 
+title: Trades
+type: text/vnd.tiddlywiki
+
+Some consider a 'trade' to be when you either buy OR sell a stock (see [[Filled]]). In this notebook a 'trade' is a round trip where a stock is bought and subsequently been sold, thus [[realizing|Realized]] a profit or a loss which in turn effects your [[earnings|Earnings]].

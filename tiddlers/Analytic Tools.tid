@@ -1,0 +1,13 @@
+created: 20211121234451502
+modified: 20211123101111495
+next: Delisted
+previous: Welcome
+tags: 
+title: Analytic Tools
+type: text/vnd.tiddlywiki
+
+There are many tools available that attempt to predict market movement. I have not had a lot of luck with them when it comes to [[penny stocks|Penny Stocks]]. I end up using a [[screener|Screener]] to filter NASDAQ stocks that are under a dollar. There not really that many stocks (usually around 100) so after a few weeks can get a pretty good idea of the stocks of interest.
+
+A valuable resource is NASDAQ's [[Non-compliant Companies|https://listingcenter.nasdaq.com/NonCompliantCompanyList.aspx]]. It lists the date that a company was notified of being non-compliant, not only for bid price but other outstanding issues as well - see [[delisted|Delisted]].
+
+I found the most effective tool is to monitor the current bid price against [[earnings|Earnings]] made or lost in previous [[trades|Trades]] already made/lost on the stock from previous [[trading|Trades]]  (see [[Swing Trading]]).

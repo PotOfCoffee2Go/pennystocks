@@ -1,0 +1,9 @@
+created: 20211122200703466
+modified: 20211123101431372
+next: Trades
+previous: Order
+tags: 
+title: Filled
+type: text/vnd.tiddlywiki
+
+When an [[order|Order]] is [[filled|Filled]] money will be withdrawn from your [[account|Account]] for the amount of shares [[filled|Filled]] times the price. It is not uncommon for an [[order|Order]] to have more than one [[fill|Filled]] depending on various factors like the type of the order, the [[spread|Spread]], number of shares at the [[ask price|Ask Price]].

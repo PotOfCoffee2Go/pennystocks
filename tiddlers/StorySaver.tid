@@ -1,0 +1,7 @@
+created: 20211124043811232
+modified: 20211129134002118
+tags: $:/tags/SideBarSegment
+title: StorySaver
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="exportButton" exportFilter={{$:/StoryList!!list}} /> Export Story
