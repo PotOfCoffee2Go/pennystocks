@@ -1,0 +1,9 @@
+created: 20220123203437388
+modified: 20220123203835737
+tags: 
+title: $:/poc2go/commonMarkup
+type: text/vnd.tiddlywiki
+
+Display icons
+<span class="p2g-icon">{{$:/core/images/chevron-left}}</span>
+ properly sized in tiddler body - see [[$:/poc2go/stylesheet]].

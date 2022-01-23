@@ -1,0 +1,22 @@
+caption: View
+created: 20220123200007699
+list-before: $:/core/ui/SideBar/Tools
+modified: 20220123201454218
+tags: $:/tags/SideBar
+title: $:/poc2go/ui/viewButtons
+type: text/vnd.tiddlywiki
+
+<$button>
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close" text=show />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit" text=show />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions" text=show />
+{{$:/core/images/preview-open}} Show Buttons
+</$button> //Show info, edit, and close buttons//
+
+<$button>
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close" text=hide />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit" text=hide />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions" text=hide />
+{{$:/core/images/preview-closed}} Hide&nbsp;&nbsp;Buttons
+</$button> //Hide info, edit, and close buttons//
+
