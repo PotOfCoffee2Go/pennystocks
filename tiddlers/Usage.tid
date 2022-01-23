@@ -1,14 +1,9 @@
-color: #00ff00
 created: 20211121122953684
-list: Usage Example Links
-modified: 20220123001606724
-previous: Welcome
-tags: Usage TocRoot
+modified: 20220123020716206
+tags: TocRoot
 title: Usage
 type: text/vnd.tiddlywiki
 
 This [[TiddlyWiki|https://tiddlywiki.com/]] notebook resides on [[GitHub|https://github.com/]]. ~TiddlyWiki calls notes 'Tiddlers', for now I will call them 'notes'.
 
 Notes in the book are non-linear - basically, each note exists independently. The notebook is much like a pile of disorganized index cards. The text in the notes have [[links|Links]] to other resources. 
-
-The sidebar to right (top of page for tablets) has a list of all the notes in the book. The handy 'Home' {{$:/core/images/home-button}} button in the sidebar clears the display and shows only the [[Welcome]] note.
