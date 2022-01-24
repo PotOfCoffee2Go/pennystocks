@@ -1,8 +1,9 @@
 caption: Penny Stocks
 created: 20220122212850557
-modified: 20220123043406435
-tags: toc
+modified: 20220124020906276
+tags: 
 title: Penny Stock Notes
+toctiddler: yes
 type: text/vnd.tiddlywiki
 
   <<toc-tabbed-internal-nav "TocRoot" selectedTiddler:$:/poc2go/toc/selectedTiddler >>

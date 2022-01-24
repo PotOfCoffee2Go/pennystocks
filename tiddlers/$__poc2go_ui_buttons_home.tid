@@ -1,0 +1,19 @@
+created: 20220124035451434
+modified: 20220124040638833
+tags: $:/tags/ViewToolbar
+title: $:/poc2go/ui/buttons/home
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$list filter="[all[current]toctiddler[yes]]">
+<$button message="tm-home" tooltip={{$:/language/Buttons/Home/Hint}} aria-label={{$:/language/Buttons/Home/Caption}} class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/home-button}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text">
+<$text text={{$:/language/Buttons/Home/Caption}}/>
+</span>
+</$list>
+</$button>
+</$list>

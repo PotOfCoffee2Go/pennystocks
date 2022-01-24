@@ -1,0 +1,9 @@
+created: 20220124032935375
+modified: 20220124033103956
+tags: $:/tags/ViewTemplate
+title: $:/poc2go/tiddlerheader
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]toctiddler[yes]]">
+header
+</$list>
