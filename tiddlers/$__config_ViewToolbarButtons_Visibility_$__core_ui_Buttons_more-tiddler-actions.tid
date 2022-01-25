@@ -1,6 +1,6 @@
 created: 20220123155812443
-modified: 20220125091542799
+modified: 20220125092622350
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions
 type: text/vnd.tiddlywiki
 
-hide
+show
