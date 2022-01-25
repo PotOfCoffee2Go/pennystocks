@@ -1,8 +1,10 @@
 created: 20220122215315664
 list: Welcome [[The Plan]] Usage
-modified: 20220123021145932
+modified: 20220124145748569
 tags: 
 title: TocRoot
 type: text/vnd.tiddlywiki
 
-<<toc "The Plan">>
+<$list filter="[list[!!list]]">
+
+</$list>

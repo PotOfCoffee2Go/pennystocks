@@ -1,13 +1,11 @@
 created: 20220123042419943
-modified: 20220123175107575
+modified: 20220125050212674
 tags: $:/tags/StartupAction
 title: $:/poc2go/startup
 type: text/vnd.tiddlywiki
 
-<$action-setfield $tiddler="$:/poc2go/toc/selectedTiddler" text=Welcome />
+<$action-setfield $tiddler="$:/temp/toc/selectedTiddler" text=Welcome />
 <$action-setfield $tiddler="$:/state/sidebar" text=no />
-<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close" text=hide />
-<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit" text=hide />
-<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions" text=hide />
+{{$:/poc2go/ui/viewButtons/hide}}
 
 

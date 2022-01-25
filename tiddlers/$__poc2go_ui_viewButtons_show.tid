@@ -1,0 +1,10 @@
+created: 20220124092033448
+modified: 20220125071153360
+tags: 
+title: $:/poc2go/ui/viewButtons/show
+type: text/vnd.tiddlywiki
+
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close" text=show />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit" text=show />
+<$action-setfield $tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions" text=show />
+

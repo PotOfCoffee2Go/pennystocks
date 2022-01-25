@@ -1,7 +1,7 @@
 created: 20220123204346779
-modified: 20220124020832205
+modified: 20220125051604256
 tags: $:/tags/ViewTemplate
-title: $:/poc2go/tiddlerfooter
+title: $:/poc2go/tocFooter
 type: text/vnd.tiddlywiki
 
 <$list filter="[all[current]toctiddler[yes]]">

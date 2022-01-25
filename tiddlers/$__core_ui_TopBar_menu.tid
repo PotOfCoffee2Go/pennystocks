@@ -1,0 +1,12 @@
+created: 20220124092925518
+modified: 20220125054101736
+tags: $:/tags/TopRightBar
+title: $:/core/ui/TopBar/menu
+type: text/vnd.tiddlywiki
+
+<$list filter="[[$:/state/sidebar]get[text]] +[else[yes]!match[no]]" variable="ignore">
+<$button set="$:/state/sidebar" setTo="no" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class="tc-btn-invisible tc-hide-sidebar-btn">{{$:/core/images/chevron-right}}</$button>
+</$list>
+<$list filter="[[$:/state/sidebar]get[text]] +[else[yes]match[no]]" variable="ignore">
+<$button set="$:/state/sidebar" setTo="yes" tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class="tc-btn-invisible tc-show-sidebar-btn">{{$:/poc2go/ui/viewButtons/show}}{{$:/core/images/chevron-left}}</$button>
+</$list>
