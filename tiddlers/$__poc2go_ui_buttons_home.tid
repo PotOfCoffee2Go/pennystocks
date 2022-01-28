@@ -1,5 +1,5 @@
 created: 20220124035451434
-modified: 20220125080821527
+modified: 20220128013538976
 tags: $:/tags/TopRightBar
 title: $:/poc2go/ui/buttons/home
 type: text/vnd.tiddlywiki
@@ -7,5 +7,5 @@ type: text/vnd.tiddlywiki
 \whitespace trim
 <$button message="tm-home" tooltip={{$:/language/Buttons/Home/Hint}} aria-label={{$:/language/Buttons/Home/Caption}} class=<<tv-config-toolbar-class>>>
 {{$:/core/images/home-button}}
-{{$:/poc2go/startup}}
+<$action-setfield $tiddler="$:/state/sidebar" text=no />
 </$button>

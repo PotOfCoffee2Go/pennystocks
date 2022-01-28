@@ -1,9 +1,9 @@
 created: 20220123204346779
-modified: 20220125051604256
+modified: 20220127133731299
 tags: $:/tags/ViewTemplate
-title: $:/poc2go/tocFooter
+title: $:/poc2go/toc/footer
 type: text/vnd.tiddlywiki
 
 <$list filter="[all[current]toctiddler[yes]]">
-[[PotOfCoffee2Go|https://github.com/PotOfCoffee2Go]]
+ [[PotOfCoffee2Go|https://github.com/PotOfCoffee2Go]]
 </$list>

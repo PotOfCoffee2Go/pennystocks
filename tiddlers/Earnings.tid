@@ -1,5 +1,5 @@
 created: 20211120211455360
-modified: 20220123004655300
+modified: 20220128025737048
 previous: Account
 tags: Investment
 title: Earnings
@@ -9,7 +9,7 @@ Earnings occur when you buy and then sell a particular stock. Similar to a merch
 
 A bird's eye view of the sequence to generate earnings is :
 
-# Buy 100 shares of a stock at .50 cents [[Order]]
+# [[Order]] a [[Buy]] of 100 shares of a stock at .50 cents
 # The buy order is 100 x .50 = $50 [[Cost]]
 # The $50 [[Cost]] is deducted from [[Cash]]
 # The order is [[Filled]] by NASDAQ (assume at the .50 cents per share)

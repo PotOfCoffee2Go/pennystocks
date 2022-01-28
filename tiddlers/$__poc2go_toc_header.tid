@@ -1,0 +1,11 @@
+created: 20220124032935375
+modified: 20220127215823250
+tags: $:/tags/ViewTemplate
+title: $:/poc2go/toc/header
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]toctiddler[yes]]">
+<div class="p2g-toc-header">
+{{{ [[$:/poc2go/toc/history]get[list]] +[enlist-input[]] }}}
+</div>
+</$list>

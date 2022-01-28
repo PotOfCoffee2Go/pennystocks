@@ -1,8 +1,18 @@
 .p2g-icon {
    background: #865f47;
 }
-
 .p2g-icon svg {
   width: 0.7em;
   height: 0.7em;  
+}
+
+div[data-tiddler-title^='Penny Stock Notes']  .tc-tiddler-controls {
+ visibility: hidden;;
+}
+
+.p2g-toc-header span {
+  padding-left: .3em;
+}
+.p2g-toc-header span ::before {
+  content: "| ";
 }
