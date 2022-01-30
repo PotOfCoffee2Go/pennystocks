@@ -1,0 +1,13 @@
+created: 20220130060509695
+modified: 20220130081200208
+tags: 
+title: $:/poc2go/test
+type: text/vnd.tiddlywiki
+
+<$list filter="[list[$:/poc2go/toc/history]last[]]">
+<<currentTiddler>>
+</$list>
+
+<$set name="myVariable" filter="[list[$:/poc2go/toc/history]last[]]">
+<<myVariable>>
+</$set>

@@ -1,5 +1,5 @@
 created: 20220123205629164
-list: $:/poc2go/toc/header $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/body $:/poc2go/toc/footer
-modified: 20220127133754550
+list: $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/tags $:/poc2go/toc/header $:/core/ui/ViewTemplate/body $:/poc2go/toc/footer
+modified: 20220128122006384
 title: $:/tags/ViewTemplate
 type: text/vnd.tiddlywiki

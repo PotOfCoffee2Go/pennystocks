@@ -1,0 +1,13 @@
+created: 20220129192346742
+modified: 20220129193830545
+tags: 
+title: $:/poc2go/ui/buttons/view/header/closeall
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$button tooltip={{$:/language/Buttons/CloseAll/Hint}} aria-label={{$:/language/Buttons/CloseAll/Caption}} class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/close-all-button}}
+</$list>
+<$action-listops $tiddler="$:/poc2go/toc/history" $filter="[[]]" />
+</$button>

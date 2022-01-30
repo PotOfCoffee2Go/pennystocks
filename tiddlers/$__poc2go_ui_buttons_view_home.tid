@@ -1,13 +1,14 @@
 created: 20220125074849472
-modified: 20220128003335577
+modified: 20220130160324300
 tags: $:/tags/ViewToolbar
 title: $:/poc2go/ui/buttons/view/home
 type: text/vnd.tiddlywiki
 
 \whitespace trim
-<$button message="tm-home" tooltip={{$:/language/Buttons/Home/Hint}} aria-label={{$:/language/Buttons/Home/Caption}} class=<<tv-config-toolbar-class>>>
+<$button tooltip={{$:/language/Buttons/Home/Hint}} aria-label={{$:/language/Buttons/Home/Caption}} class=<<tv-config-toolbar-class>>>
 {{$:/images/google-material-design/device/outlined/24px/add-to-home-screen}}
 <$action-setfield $tiddler="$:/temp/toc/selectedTiddler" text=<<currentTiddler>> />
 <$action-listops $tiddler="$:/poc2go/toc/history" $subfilter="[all[current]]" />
-<$action-setfield $tiddler="$:/state/sidebar" text=no />
+<$action-setfield $tiddler="$:/state/sidebar" text=no  />
+<$action-navigate $to="Penny Stock Notes"/>
 </$button>

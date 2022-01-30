@@ -1,0 +1,16 @@
+created: 20220129215426443
+modified: 20220130085546046
+tags: 
+title: $:/poc2go/ui/buttons/view/header/remove
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$button tooltip={{$:/language/Buttons/CloseAll/Hint}} aria-label={{$:/language/Buttons/CloseAll/Caption}} class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/left-arrow}}
+</$list>
+<$action-listops $tiddler="$:/poc2go/toc/history" $subfilter="[list[$:/poc2go/toc/history]] +[!remove:1{$:/poc2go/toc/history!!list}]" />
+<$list filter="[list[$:/poc2go/toc/history]] +[!remove:1{$:/poc2go/toc/history!!list}] +[last[]]">
+<$action-setfield $tiddler="$:/temp/toc/selectedTiddler" text=<<currentTiddler>> />
+</$list>
+</$button>
